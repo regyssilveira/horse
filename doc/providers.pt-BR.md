@@ -2,6 +2,9 @@
 
 *Leia em [English](./providers.md) ou [Português (BR)](./providers.pt-BR.md).*
 
+Para os padrões HTTPS do Indy embutido, negociação e migração de TLS 1.0,
+veja [Política de protocolos TLS no Indy](indy-tls-policy.pt-BR.md).
+
 O Horse separa duas escolhas arquiteturais que costumam ser confundidas:
 
 1. **Provider** — o transporte HTTP que é dono do socket e parseia as requisições. Indy é o padrão; CrossSocket e mORMot2 são alternativas assíncronas opcionais; provedores futuros (nghttp2, …) seguirão o mesmo padrão.
