@@ -2,6 +2,9 @@
 
 *Read this in [English](./providers.md) or [Português (BR)](./providers.pt-BR.md).*
 
+For built-in Indy HTTPS defaults, protocol negotiation and migration from TLS
+1.0, see [Indy TLS protocol policy](indy-tls-policy.md).
+
 Horse separates two architectural choices that are easy to confuse:
 
 1. **Provider** — the HTTP transport that owns the socket and parses requests. Indy is the default; CrossSocket and mORMot2 are optional async alternatives; future providers (nghttp2, …) follow the same pattern.
